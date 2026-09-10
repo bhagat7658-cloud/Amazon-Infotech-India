@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Amazon Infotech India — books, educational resources and institutional book supply.">
+  <title>Amazon Infotech India | Books & Educational Resources</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>📞 +91 9419181745</span>
+      <span>✉️ aicjmu@gmail.com</span>
+      <span>📍 Jammu, J&amp;K</span>
+    </div>
+  </div>
+  <div class="container brand-row">
+    <a class="brand" href="#home" aria-label="Amazon Infotech India home">
+      <img src="assets/logo.jpg" alt="Amazon Infotech Centre logo">
+      <div>
+        <div class="brand-name">Amazon Infotech India</div>
+        <div class="brand-tag">Books · Knowledge · Institutions · A Brighter Tomorrow</div>
+      </div>
+    </a>
+    <a class="btn btn-red desktop-cta" href="#quote">Request a Quote</a>
+  </div>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <button class="menu-btn" aria-label="Open menu">☰</button>
+      <div class="nav-links">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#catalogue">Books &amp; Catalogue</a>
+        <a href="#institutional">Institutional Supply</a>
+        <a href="#publishers">Publishers</a>
+        <a href="#md">MD's Desk</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="search-box">
+        <input id="searchInput" type="search" placeholder="Search books, ISBN, author...">
+        <span>⌕</span>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <div class="eyebrow">BOOKS • SOURCING • INSTITUTIONAL SUPPLY</div>
+    <h1>Knowledge Builds<br><span>Brighter Futures.</span></h1>
+    <p class="hero-lead">Your trusted partner for academic, professional and reference books.</p>
+    <div class="hero-points">
+      <div><b>▢</b><span>Wide Range<br>of Books</span></div>
+      <div><b>⌂</b><span>Institutional<br>Supply</span></div>
+      <div><b>↗</b><span>Pan-India<br>Sourcing</span></div>
+      <div><b>✦</b><span>Customer<br>Centric</span></div>
+    </div>
+    <div class="hero-actions">
+      <a class="btn btn-red" href="#catalogue">Explore Catalogue →</a>
+      <a class="btn btn-outline" href="#quote">Request a Quote</a>
+    </div>
+  </div>
+</section>
+
+<section class="audience-strip">
+  <div class="container audience-grid">
+    <div><strong>🎓</strong><span>Colleges &amp;<br>Universities</span></div>
+    <div><strong>📚</strong><span>Libraries</span></div>
+    <div><strong>🏛</strong><span>Government<br>Institutions</span></div>
+    <div><strong>🏫</strong><span>Schools &amp;<br>Departments</span></div>
+    <div class="mini-quote">“Empowering Education.<br>Enriching Lives.”</div>
+  </div>
+</section>
+
+<section id="about" class="section about">
+  <div class="container two-col">
+    <div>
+      <div class="section-kicker">ABOUT US</div>
+      <h2>Amazon Infotech India</h2>
+      <p>Amazon Infotech India is focused on supplying academic, professional and reference books to educational institutions, libraries and organizations. We help institutions source books across subjects and requirements with a practical, responsive approach.</p>
+      <div class="feature-grid">
+        <div><span>◆</span><b>Authentic Resources</b></div>
+        <div><span>◈</span><b>Wide Subject Coverage</b></div>
+        <div><span>▣</span><b>Reliable Supply</b></div>
+        <div><span>✦</span><b>Customer-Centric</b></div>
+      </div>
+      <a class="text-link" href="#institutional">Know More About Us →</a>
+    </div>
+
+    <div id="md" class="md-card">
+      <div class="section-kicker">MD'S DESK</div>
+      <div class="md-inner">
+        <div>
+          <div class="quote-mark">“</div>
+          <blockquote>Books have the power to shape minds, build societies and create a better tomorrow. At Amazon Infotech India, we are committed to making knowledge accessible to every learner and institution.</blockquote>
+          <div class="md-name">Ruchi Chauhan Khan</div>
+          <div class="md-title">Managing Director<br>Amazon Infotech India</div>
+        </div>
+        <img class="md-photo" src="assets/md-ruchi-chauhan-khan.jpg" alt="Ruchi Chauhan Khan, Managing Director">
+      </div>
+      <div class="md-signoff">Knowledge today<br>for a brighter tomorrow.</div>
+    </div>
+  </div>
+</section>
+
+<section class="navy-band">
+  <div class="container band-grid">
+    <div><strong>📚</strong><b>Academic &amp; Reference</b><span>Books and resources</span></div>
+    <div><strong>🏛</strong><b>Institutional Supply</b><span>Bulk requirements</span></div>
+    <div><strong>🔎</strong><b>ISBN-Based Sourcing</b><span>Specific titles &amp; editions</span></div>
+    <div><strong>✓</strong><b>Responsive Service</b><span>Clear communication</span></div>
+  </div>
+</section>
+
+<section id="catalogue" class="section">
+  <div class="container">
+    <div class="section-heading">
+      <div>
+        <div class="section-kicker">BOOKS &amp; CATALOGUE</div>
+        <h2>Browse by Category</h2>
+      </div>
+      <span id="resultCount" class="result-count"></span>
+    </div>
+    <div class="categories">
+      <button data-cat="All" class="cat active">All</button>
+      <button data-cat="Arts & Humanities" class="cat">Arts &amp; Humanities</button>
+      <button data-cat="Science" class="cat">Science</button>
+      <button data-cat="Commerce" class="cat">Commerce</button>
+      <button data-cat="Management" class="cat">Management</button>
+      <button data-cat="Computer Science" class="cat">Computer Science</button>
+      <button data-cat="Medical" class="cat">Medical &amp; Allied</button>
+      <button data-cat="Law" class="cat">Law</button>
+      <button data-cat="Engineering" class="cat">Engineering</button>
+      <button data-cat="School" class="cat">School &amp; Academic</button>
+      <button data-cat="Reference" class="cat">General &amp; Reference</button>
+    </div>
+
+    <div class="catalogue-note">
+      <b>Catalogue ready:</b> Replace the sample entries in <code>script.js</code> with your actual book list (Title, Author, Publisher, ISBN, Edition, Price, Subject).
+    </div>
+    <div id="bookGrid" class="book-grid"></div>
+    <div id="emptyState" class="empty hidden">No books found. Try another title, author, ISBN or category.</div>
+  </div>
+</section>
+
+<section id="institutional" class="section soft">
+  <div class="container">
+    <div class="section-kicker">INSTITUTIONAL SUPPLY</div>
+    <h2>Built for Institutional Requirements</h2>
+    <p class="wide">Whether you need a subject-wise list, ISBN-specific titles, library additions or a large academic requirement, send us your list and we can review the requirement.</p>
+    <div class="service-grid">
+      <article><div class="icon">📚</div><h3>Library Requirements</h3><p>Book lists for libraries, departments and institutional collections.</p></article>
+      <article><div class="icon">🏛</div><h3>College &amp; University Supply</h3><p>Academic and reference titles across disciplines and levels.</p></article>
+      <article><div class="icon">📋</div><h3>List-Based Sourcing</h3><p>Share an Excel/PDF list and specify ISBN, edition or price requirements.</p></article>
+      <article><div class="icon">🚚</div><h3>Bulk Requirements</h3><p>For larger institutional requirements, contact us for a quotation.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="publishers" class="section">
+  <div class="container publisher-panel">
+    <div>
+      <div class="section-kicker">PUBLISHERS &amp; SOURCING</div>
+      <h2>Need a Specific Title?</h2>
+      <p>Send the title, author, publisher or ISBN. We can review availability and help with your institutional requirement.</p>
+    </div>
+    <a class="btn btn-red" href="#quote">Send Book Requirement →</a>
+  </div>
+</section>
+
+<section id="quote" class="section quote-section">
+  <div class="container two-col quote-grid">
+    <div>
+      <div class="section-kicker">REQUEST A QUOTE</div>
+      <h2>Share Your Book List</h2>
+      <p>Use the form to send your requirement. For an Excel/PDF list, attach it below.</p>
+      <div class="contact-mini">
+        <div>📞 <a href="tel:+919419181745">+91 9419181745</a></div>
+        <div>✉️ <a href="mailto:aicjmu@gmail.com">aicjmu@gmail.com</a></div>
+      </div>
+    </div>
+    <form name="quote" method="POST" data-netlify="true" enctype="multipart/form-data" class="quote-form">
+      <input type="hidden" name="form-name" value="quote">
+      <div class="form-row">
+        <label>Institution Name<input name="institution" required></label>
+        <label>Contact Person<input name="contact_person" required></label>
+      </div>
+      <div class="form-row">
+        <label>Phone / WhatsApp<input name="phone" required></label>
+        <label>Email<input type="email" name="email"></label>
+      </div>
+      <label>Requirement / Book List<textarea name="requirement" rows="5" placeholder="Mention subjects, titles, ISBNs, quantities, etc."></textarea></label>
+      <label>Attach Excel/PDF list<input type="file" name="book_list" accept=".pdf,.xls,.xlsx,.csv"></label>
+      <button class="btn btn-red full" type="submit">Submit Requirement →</button>
+    </form>
+  </div>
+</section>
+
+<section id="contact" class="contact-banner">
+  <div class="container contact-content">
+    <div>
+      <div class="section-kicker">GET IN TOUCH</div>
+      <h2>Let's build a knowledge-driven future.</h2>
+      <p>Amazon Infotech India · Jammu, J&amp;K</p>
+    </div>
+    <div class="contact-actions">
+      <a class="btn btn-red" href="tel:+919419181745">Call Us</a>
+      <a class="btn btn-outline-dark" href="https://wa.me/919419181745" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div><img src="assets/logo.jpg" alt="Amazon Infotech Centre logo" class="footer-logo"></div>
+    <div><b>Amazon Infotech India</b><span>Books &amp; Educational Resources</span></div>
+    <div><span>+91 9419181745</span><span>aicjmu@gmail.com</span></div>
+    <div><span>21 C/B Gandhi Nagar</span><span>Jammu, J&amp;K</span></div>
+  </div>
+  <div class="copyright">© <span id="year"></span> Amazon Infotech India. All rights reserved.</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
